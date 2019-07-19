@@ -4,7 +4,7 @@ session_start();
 
 // Check if the user is logged in, if not then redirect him to login page
 if(!isset($_SESSION["loggedin"]) || $_SESSION["loggedin"] !== true){
-    header("location: /intherapy/login.php");
+    header("location: http://app.abtz.ru/login.php");
     exit;
 }
 ?>
@@ -26,7 +26,7 @@ if(!isset($_SESSION["loggedin"]) || $_SESSION["loggedin"] !== true){
   <link href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet">
 
   <!-- Custom styles for this template-->
-  <link href="/css/sb-admin-2.min.css" rel="stylesheet">
+  <link href="http://app.abtz.ru/css/sb-admin-2.min.css" rel="stylesheet">
 
 </head>
 
@@ -42,7 +42,7 @@ if(!isset($_SESSION["loggedin"]) || $_SESSION["loggedin"] !== true){
       <ul class="navbar-nav bg-gradient-primary sidebar sidebar-dark accordion" id="accordionSidebar">
 
         <!-- Sidebar - Brand -->
-        <a class="sidebar-brand d-flex align-items-center justify-content-center" href="index.php">
+        <a class="sidebar-brand d-flex align-items-center justify-content-center" href="http://app.abtz.ru/index.php">
           <div class="sidebar-brand-icon">
             <i class="fas fa-hands"></i>
           </div>
@@ -54,7 +54,7 @@ if(!isset($_SESSION["loggedin"]) || $_SESSION["loggedin"] !== true){
 
         <!-- Nav Item - Dashboard -->
         <li class="nav-item active">
-          <a class="nav-link" href="/index.php">
+          <a class="nav-link" href="http://app.abtz.ru/index.php">
             <i class="fas fa-fw fa-tachometer-alt"></i>
             <span>Панель</span></a>
         </li>
@@ -68,21 +68,21 @@ if(!isset($_SESSION["loggedin"]) || $_SESSION["loggedin"] !== true){
         </div>
         <!-- Nav Item - Charts -->
         <li class="nav-item">
-          <a class="nav-link" href="/add_subject.html">
+          <a class="nav-link" href="http://app.abtz.ru/add_subject.html">
             <i class="fa fa-asterisk"></i>
             <span>Ситуации</span></a>
         </li>
 
         <!-- Nav Item - Charts -->
         <li class="nav-item">
-          <a class="nav-link" href="/view_subjects.html">
+          <a class="nav-link" href="http://app.abtz.ru/view_subjects.html">
             <i class="fa fa-smile-o"></i>
             <span>Настроение</span></a>
         </li>
 
         <!-- Nav Item - Charts -->
         <li class="nav-item">
-          <a class="nav-link" href="/view_subjects.html">
+          <a class="nav-link" href="http://app.abtz.ru/view_subjects.html">
             <i class="fa fa-male"></i>
             <span>Тело</span></a>
         </li>
@@ -98,14 +98,14 @@ if(!isset($_SESSION["loggedin"]) || $_SESSION["loggedin"] !== true){
 
         <!-- Nav Item - Charts -->
         <li class="nav-item">
-          <a class="nav-link" href="/links.html">
+          <a class="nav-link" href="http://app.abtz.ru/links.html">
             <i class="fa fa-thumbs-o-up"></i>
             <span>Мне помогает</span></a>
         </li>
 
         <!-- Nav Item - Charts -->
         <li class="nav-item">
-          <a class="nav-link" href="/timer.html">
+          <a class="nav-link" href="http://app.abtz.ru/timer.html">
             <i class="fa fa-list-ol"></i>
             <span>План исцеления</span></a>
         </li>
@@ -176,12 +176,12 @@ if(!isset($_SESSION["loggedin"]) || $_SESSION["loggedin"] !== true){
                 </a>
                 <!-- Dropdown - User Information -->
                 <div class="dropdown-menu dropdown-menu-right shadow animated--grow-in" aria-labelledby="userDropdown">
-                  <a class="dropdown-item" href="/reset-password.php">
+                  <a class="dropdown-item" href="http://app.abtz.ru/reset-password.php">
                     <i class="fas fa-cogs fa-sm fa-fw mr-2 text-gray-400"></i>
                     Изменить пароль
                   </a>
                   <div class="dropdown-divider"></div>
-                  <a class="dropdown-item" href="/logout.php" data-toggle="modal" data-target="#logoutModal">
+                  <a class="dropdown-item" href="http://app.abtz.ru/logout.php" data-toggle="modal" data-target="#logoutModal">
                     <i class="fas fa-sign-out-alt fa-sm fa-fw mr-2 text-gray-400"></i>
                     Выйти
                   </a>
@@ -215,8 +215,8 @@ if(!isset($_SESSION["loggedin"]) || $_SESSION["loggedin"] !== true){
                   <h1>Hi, <b><?php echo htmlspecialchars($_SESSION["username"]); ?></b>. Welcome to our site.</h1>
                 </div>
                 <p>
-                  <a href="http://learner.abtz.ru/reset-password.php" class="btn btn-warning">Reset Your Password</a>
-                  <a href="http://learner.abtz.ru/logout.php" class="btn btn-danger">Sign Out of Your Account</a>
+                  <a href="http://app.abtz.ru/reset-password.php" class="btn btn-warning">Reset Your Password</a>
+                  <a href="http://app.abtz.ru/logout.php" class="btn btn-danger">Sign Out of Your Account</a>
                 </p>
                 <p>One must manage their self-directed learning. Measure time< manage your subjects. See the list of all your learnings. Plan the next step.</p>
                 <p class="mb-0">During learning something new, you should scale your success!</p>
@@ -243,7 +243,7 @@ if(!isset($_SESSION["loggedin"]) || $_SESSION["loggedin"] !== true){
               </div>
               <div class="card-body">
                 <div class="text-center">
-                  <img class="img-fluid px-3 px-sm-4 mt-3 mb-4" style="width: 25rem;" src="http://learner.abtz.ru/img/undraw_learning_2q1h.svg" alt="">
+                  <img class="img-fluid px-3 px-sm-4 mt-3 mb-4" style="width: 25rem;" src="http://app.abtz.ru/img/undraw_learning_2q1h.svg" alt="">
                 </div>
                 <p>We learn all life, we learn together, we learn and success.</p>
 
@@ -290,28 +290,28 @@ if(!isset($_SESSION["loggedin"]) || $_SESSION["loggedin"] !== true){
         <div class="modal-body">Select "Logout" below if you are ready to end your current session.</div>
         <div class="modal-footer">
           <button class="btn btn-secondary" type="button" data-dismiss="modal">Cancel</button>
-          <a class="btn btn-primary" href="http://learner.abtz.ru/login.html">Logout</a>
+          <a class="btn btn-primary" href="http://app.abtz.ru/login.html">Logout</a>
         </div>
       </div>
     </div>
   </div>
 
   <!-- Bootstrap core JavaScript-->
-  <script src="http://learner.abtz.ru/vendor/jquery/jquery.min.js"></script>
-  <script src="http://learner.abtz.ru/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="http://app.abtz.ru/vendor/jquery/jquery.min.js"></script>
+  <script src="http://app.abtz.ru/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
 
   <!-- Core plugin JavaScript-->
-  <script src="http://learner.abtz.ru/vendor/jquery-easing/jquery.easing.min.js"></script>
+  <script src="http://app.abtz.ru/vendor/jquery-easing/jquery.easing.min.js"></script>
 
   <!-- Custom scripts for all pages-->
-  <script src="js/sb-admin-2.min.js"></script>
+  <script src="http://app.abtz.ru/js/sb-admin-2.min.js"></script>
 
   <!-- Page level plugins -->
-  <script src="vendor/chart.js/Chart.min.js"></script>
+  <script src="http://app.abtz.ru/vendor/chart.js/Chart.min.js"></script>
 
   <!-- Page level custom scripts -->
-  <script src="js/demo/chart-area-demo.js"></script>
-  <script src="js/demo/chart-pie-demo.js"></script>
+  <script src="http://app.abtz.ru/js/demo/chart-area-demo.js"></script>
+  <script src="http://app.abtz.ru/js/demo/chart-pie-demo.js"></script>
 
 </body>
 
