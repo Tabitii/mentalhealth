@@ -8,8 +8,15 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <meta name="description" content="">
   <meta name="author" content="">
+  <link rel="apple-touch-icon" sizes="120x120" href="/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+<link rel="manifest" href="/site.webmanifest">
+<link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+<meta name="msapplication-TileColor" content="#da532c">
+<meta name="theme-color" content="#ffffff">
 
-  <title>Intherapy</title>
+  <title>Heal</title>
 
   <!-- Custom fonts for this template-->
   <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
@@ -28,87 +35,90 @@
     <!-- Sidebar -->
     <ul class="navbar-nav bg-gradient-primary sidebar sidebar-dark accordion" id="accordionSidebar">
 
-      <!-- Sidebar - Brand -->
-      <a class="sidebar-brand d-flex align-items-center justify-content-center" href="index.php">
-        <div class="sidebar-brand-icon">
-          <i class="fas fa-hands"></i>
+      <!-- Sidebar -->
+      <ul class="navbar-nav bg-gradient-primary sidebar sidebar-dark accordion" id="accordionSidebar">
+
+        <!-- Sidebar - Brand -->
+        <a class="sidebar-brand d-flex align-items-center justify-content-center" href="http://app.abtz.ru/index.php">
+          <div class="sidebar-brand-icon">
+            <i class="fas fa-hands"></i>
+          </div>
+          <div class="sidebar-brand-text mx-3">Heal<sup>we</sup></div>
+        </a>
+
+        <!-- Divider -->
+        <hr class="sidebar-divider my-0">
+
+        <!-- Nav Item - Dashboard -->
+        <li class="nav-item active">
+          <a class="nav-link" href="http://app.abtz.ru/index.php">
+            <i class="fas fa-fw fa-tachometer-alt"></i>
+            <span>Панель</span></a>
+        </li>
+
+        <!-- Divider -->
+        <hr class="sidebar-divider">
+
+        <!-- Heading -->
+        <div class="sidebar-heading">
+          Мое состояние
         </div>
-        <div class="sidebar-brand-text mx-3">Intherapy<sup>we</sup></div>
-      </a>
+        <!-- Nav Item - Charts -->
+        <li class="nav-item">
+          <a class="nav-link" href="http://app.abtz.ru/add_stodb.html">
+            <i class="fa fa-asterisk"></i>
+            <span>Ситуации</span></a>
+        </li>
 
-      <!-- Divider -->
-      <hr class="sidebar-divider my-0">
+        <!-- Nav Item - Charts -->
+        <li class="nav-item">
+          <a class="nav-link" href="http://app.abtz.ru/add_mtodb.html">
+            <i class="fa fa-smile-o"></i>
+            <span>Настроение</span></a>
+        </li>
 
-      <!-- Nav Item - Dashboard -->
-      <li class="nav-item active">
-        <a class="nav-link" href="/index.php">
-          <i class="fas fa-fw fa-tachometer-alt"></i>
-          <span>Панель</span></a>
-      </li>
-
-      <!-- Divider -->
-      <hr class="sidebar-divider">
-
-      <!-- Heading -->
-      <div class="sidebar-heading">
-        Мое состояние
-      </div>
-      <!-- Nav Item - Charts -->
-      <li class="nav-item">
-        <a class="nav-link" href="/add_subject.html">
-          <i class="fa fa-asterisk"></i>
-          <span>Ситуации</span></a>
-      </li>
-
-      <!-- Nav Item - Charts -->
-      <li class="nav-item">
-        <a class="nav-link" href="/view_subjects.html">
-          <i class="fa fa-smile-o"></i>
-          <span>Настроение</span></a>
-      </li>
-
-      <!-- Nav Item - Charts -->
-      <li class="nav-item">
-        <a class="nav-link" href="/view_subjects.html">
-          <i class="fa fa-male"></i>
-          <span>Тело</span></a>
-      </li>
+        <!-- Nav Item - Charts -->
+        <li class="nav-item">
+          <a class="nav-link" href="http://app.abtz.ru/add_btodb.html">
+            <i class="fa fa-male"></i>
+            <span>Тело</span></a>
+        </li>
 
 
 
-      <!-- Divider -->
-      <hr class="sidebar-divider">
-      <!-- Heading -->
-      <div class="sidebar-heading">
-        Стратегии исцеления
-      </div>
+        <!-- Divider -->
+        <hr class="sidebar-divider">
+        <!-- Heading -->
+        <div class="sidebar-heading">
+          Стратегии
+        </div>
 
-      <!-- Nav Item - Charts -->
-      <li class="nav-item">
-        <a class="nav-link" href="/links.html">
-          <i class="fa fa-thumbs-o-up"></i>
-          <span>Мне помогает</span></a>
-      </li>
+        <!-- Nav Item - Charts -->
+        <li class="nav-item">
+          <a class="nav-link" href="http://app.abtz.ru/add_htodb.html">
+            <i class="fa fa-thumbs-o-up"></i>
+            <span>Помогает</span></a>
+        </li>
 
-      <!-- Nav Item - Charts -->
-      <li class="nav-item">
-        <a class="nav-link" href="/timer.html">
-          <i class="fa fa-list-ol"></i>
-          <span>План исцеления</span></a>
-      </li>
+        <!-- Nav Item - Charts -->
+        <li class="nav-item">
+          <a class="nav-link" href="http://app.abtz.ru/plan.html">
+            <i class="fa fa-list-ol"></i>
+            <span>План</span></a>
+        </li>
 
 
 
-      <!-- Divider -->
-      <hr class="sidebar-divider d-none d-md-block">
+        <!-- Divider -->
+        <hr class="sidebar-divider d-none d-md-block">
 
-      <!-- Sidebar Toggler (Sidebar) -->
-      <div class="text-center d-none d-md-inline">
-        <button class="rounded-circle border-0" id="sidebarToggle"></button>
-      </div>
+        <!-- Sidebar Toggler (Sidebar) -->
+        <div class="text-center d-none d-md-inline">
+          <button class="rounded-circle border-0" id="sidebarToggle"></button>
+        </div>
 
-    </ul>
-    <!-- End of Sidebar -->
+      </ul>
+      <!-- End of Sidebar -->
 
     <!-- Content Wrapper -->
     <div id="content-wrapper" class="d-flex flex-column">
