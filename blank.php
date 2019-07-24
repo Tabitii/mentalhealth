@@ -51,7 +51,7 @@
 
         <!-- Nav Item - Dashboard -->
         <li class="nav-item active">
-          <a class="nav-link" href="http://app.abtz.ru/index.php">
+          <a class="nav-link" href="/index.php">
             <i class="fas fa-fw fa-tachometer-alt"></i>
             <span>Панель</span></a>
         </li>
@@ -65,21 +65,21 @@
         </div>
         <!-- Nav Item - Charts -->
         <li class="nav-item">
-          <a class="nav-link" href="http://app.abtz.ru/add_stodb.html">
+          <a class="nav-link" href="/add_stodb.html">
             <i class="fa fa-asterisk"></i>
             <span>Ситуации</span></a>
         </li>
 
         <!-- Nav Item - Charts -->
         <li class="nav-item">
-          <a class="nav-link" href="http://app.abtz.ru/add_mtodb.html">
+          <a class="nav-link" href="/add_mtodb.html">
             <i class="fa fa-smile-o"></i>
             <span>Настроение</span></a>
         </li>
 
         <!-- Nav Item - Charts -->
         <li class="nav-item">
-          <a class="nav-link" href="http://app.abtz.ru/add_btodb.html">
+          <a class="nav-link" href="/add_btodb.html">
             <i class="fa fa-male"></i>
             <span>Тело</span></a>
         </li>
@@ -102,7 +102,7 @@
 
         <!-- Nav Item - Charts -->
         <li class="nav-item">
-          <a class="nav-link" href="http://app.abtz.ru/plan.html">
+          <a class="nav-link" href="/plan.html">
             <i class="fa fa-list-ol"></i>
             <span>План</span></a>
         </li>
